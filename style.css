@@ -86,3 +86,28 @@ body {
 .linkedin::before {
   background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/linkedin.svg');
 }
+
+/* Botón de Clash Royale */
+.clash-royale {
+  background-color: #0055d4;
+}
+.clash-royale::before {
+  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/clashroyale.svg');
+}
+
+/* Botón de Clash of Clans */
+.clash-of-clans {
+  background-color: #d58c29;
+}
+.clash-of-clans::before {
+  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/clashofclans.svg');
+}
+
+/* Botón de Brawl Stars */
+.brawl-stars {
+  background-color: #ffcc00;
+}
+.brawl-stars::before {
+  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/brawlstars.svg');
+}
+
