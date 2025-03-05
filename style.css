@@ -15,7 +15,7 @@ body {
 }
 
 .social-button {
-  width: 180px;
+  width: 200px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -34,16 +34,6 @@ body {
 .social-button:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
-
-.social-button::before {
-  content: "";
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: 15px;
 }
 
 /* Botones en blanco y negro */
@@ -93,38 +83,35 @@ body {
   background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/linkedin.svg');
 }
 
-/* Botón de Clash Royale con texto */
+/* Botón de Clash Royale con texto centrado */
 .clash-royale {
   background-color: #0055d4;
-}
-.clash-royale::before {
-  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/clashroyale.svg');
+  text-align: center;
+  font-size: 18px;
 }
 
-/* Botón de Clash of Clans con texto */
+/* Botón de Clash of Clans con texto centrado */
 .clash-of-clans {
   background-color: #d58c29;
-}
-.clash-of-clans::before {
-  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/clashofclans.svg');
+  text-align: center;
+  font-size: 18px;
 }
 
-/* Botón de Brawl Stars con texto */
+/* Botón de Brawl Stars con texto centrado */
 .brawl-stars {
   background-color: #ffcc00;
+  text-align: center;
+  font-size: 18px;
   color: black;
 }
-.brawl-stars::before {
-  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/brawlstars.svg');
-}
 
-/* Botón de Hevy (hace visible el icono) */
+/* Botón de Hevy */
 .hevy {
   background-color: #000;
 }
 .hevy::before {
   background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/hevy.svg');
-  filter: invert(1);
+  filter: invert(0);
 }
 
 /* Botón de IMDb */
