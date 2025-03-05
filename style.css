@@ -83,6 +83,24 @@ body {
   background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/linkedin.svg');
 }
 
+/* Botón de Hevy */
+.hevy {
+  background-color: #000;
+}
+.hevy::before {
+  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/hevy.svg');
+  filter: invert(0);
+}
+
+/* Botón de IMDb */
+.imdb {
+  background-color: #f5c518;
+  color: black;
+}
+.imdb::before {
+  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/imdb.svg');
+}
+
 /* Botón de Clash Royale con texto centrado */
 .clash-royale {
   background-color: #0055d4;
@@ -103,22 +121,4 @@ body {
   text-align: center;
   font-size: 18px;
   color: black;
-}
-
-/* Botón de Hevy */
-.hevy {
-  background-color: #000;
-}
-.hevy::before {
-  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/hevy.svg');
-  filter: invert(0);
-}
-
-/* Botón de IMDb */
-.imdb {
-  background-color: #f5c518;
-  color: black;
-}
-.imdb::before {
-  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/imdb.svg');
 }
