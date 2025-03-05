@@ -111,3 +111,14 @@ body {
   background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/brawlstars.svg');
 }
 
+
+/* Botón de Hevy */
+.hevy {
+  background-color: #000;
+}
+.hevy::before {
+  background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/hevy.svg');
+  filter: invert(1);
+}
+
+
