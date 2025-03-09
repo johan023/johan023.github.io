@@ -29,11 +29,23 @@ body {
   font-weight: bold;
   color: white;
   position: relative;
+  gap: 10px;
 }
 
 .social-button:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.social-button::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
 }
 
 /* Botones en blanco y negro */
@@ -89,7 +101,7 @@ body {
 }
 .hevy::before {
   background-image: url('https://cdn.jsdelivr.net/npm/simple-icons/icons/hevy.svg');
-  filter: invert(0);
+  filter: invert(1);
 }
 
 /* Botón de IMDb */
@@ -106,6 +118,8 @@ body {
   background-color: #0055d4;
   text-align: center;
   font-size: 18px;
+  width: 220px;
+  height: 55px;
 }
 
 /* Botón de Clash of Clans con texto centrado */
@@ -113,6 +127,8 @@ body {
   background-color: #d58c29;
   text-align: center;
   font-size: 18px;
+  width: 220px;
+  height: 55px;
 }
 
 /* Botón de Brawl Stars con texto centrado */
@@ -120,5 +136,7 @@ body {
   background-color: #ffcc00;
   text-align: center;
   font-size: 18px;
+  width: 220px;
+  height: 55px;
   color: black;
 }
